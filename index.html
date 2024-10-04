@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="StyleSheet1.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Quiz.</a>
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact </a>
+               
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Quiz</h1>
+
+                    <div class="quiz-header">
+                        <span>Quiz Website Tutorials</span>
+                        <span class="header-score">Score: 0 / 5 </span>
+                        <span class="timer">Time Left: <span id="timer">30</span> seconds</span>
+                    </div>
+
+
+                    <h3 class="question-test">The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:</h3>
+                    <div class="option-list">
+                        <!---<div class="option" onclick="optionSelected(this)">
+                    <span>A. 15</span>
+                     </div>
+                     <div class="option" onclick="optionSelected(this)>
+                    <span>B. 16</span>
+                        </div>
+                        <div class="option" onclick="optionSelected(this)>
+                         <span>C. 18</span>
+                        </div>
+                        <div class="option" onclick="optionSelected(this)>
+                        <span>D. 25</span>
+                        </div>-->
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+                <div class="result-box">
+                    <h2>Quiz Result</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        <span class="score-text">Your Score 0 out of 5</span>
+                    </div>
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
+            </section>
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz Website</h1>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <span class="info">1.Carefully read any provided instructions or guidelines before starting the quiz.</span>
+        <span class="info">2.Take your time to read each question and all possible answers thoroughly before selecting your response.</span>
+        <span class="info">3. Complete the quiz honestly and avoid cheating. This ensures that your results reflect your true knowledge and skills.</span>
+        <span class="info">4. If you’re unsure of an answer, make an educated guess rather than selecting random options.</span>
+        <span class="info">5.If the quiz format allows, review your answers before submitting.</span>
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="Script1.js"></script>
+</body>
+</html>
